@@ -1,6 +1,7 @@
 var xPositions = [100];
 var yPositions = [200];
 
+
 setup = function() {
   size(400, 400); 
 };
@@ -11,7 +12,7 @@ draw = function(){
 
   //***in the video they use if(mouseIsPressed)
   //***in Codespaces we use if(mousePressed)
-  
+
 }
 
 var drawStars = function() {
@@ -19,5 +20,7 @@ var drawStars = function() {
         text("⭐", xPositions[i], yPositions[i]);
     }
 };
+
+
 
 
